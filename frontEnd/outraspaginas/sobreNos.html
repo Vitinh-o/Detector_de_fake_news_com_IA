@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detector de fake news</title>
+    <link rel="icon" href="">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"> </script>
+</head>
+
+<body>
+
+    <main>
+
+        <header>
+            <h1>Detector de fake news online</h1>
+
+            <h2>Detecta news</h2>
+
+            <nav>
+                <ul>
+
+                    <li><a href="../index.html">Detectar fake news</a> </li>
+                    <li> <a href="./listaDeSitesDeNoticiasConfiaveis.html">Lista de sites de notícias confiáveis </a> </li>
+                    <li><a href="./envieUmaNoticiaFalsa.html">Envie uma notícia falsa </a> </li>
+
+                </ul>
+
+            </nav>
+
+        </header>
+
+   
+
+        <section> 
+
+            <h3>O porque deste projeto</h3>
+
+            <p>
+                Este é um projeto criado com o propósito de aplicar na prática conceitos aprendidos em cursos como processamento de
+                linguagem natural com spacy, utilização de APIS como fastAPI, programação em python para o backend,, aplicação de um banco
+                de dados relacional, e a criação de uma página web em HTML, CSS e JavaScript .
+                Além disso o projeto visa ser útil socialmente pois na conjectura atual muitas notícias falsas são espalhadas nas redes sociais
+                com diferentes objetivos sejam eles difamatórios ou desmoralizador. Com este projeto tentamos combater ao menos um pouco 
+                o mar de desinformação que temos nas redes nos dias de hoje, de maneira prática e fácil de usar.
+            </p>
+        </section>
+
+        <section>
+
+            <h4>Metodologia</h4>
+
+            <p>O nosso projeto utiliza de 2 metodologias, a primeira é a verificação da notícia em sites confiáveis. Através do 
+                título da notícia, procuramos em diferentes sites se a mesma já foi verificada e confirmada como verdadeira ou falsa.
+                Caso isto ainda não tenha acontecido enviamos a notícia a nossa IA que irá verificar a probabilidade da notícia ser falsa 
+                com base em suas características de escrita e análise das informações e irar retornar ao usuário uma porcentagem da notícia
+                ser falsa ou não.
+                Por último caso a notícia possua uma alta porcentagem de ser falsa enviamos-a nosso banco de dados para que caso uma próxima
+                pessoa nos envie a mesma notícia realizamos já teremos uma resposta mais rápida para a mesma. 
+            </p>
+
+        </section>
+
+
+        <footer>
+
+            <p>Projeto criado com o propósito de estudo, saiba mais em nosso GitHub</p>
+
+            
+        </footer>
+
+    </main>
+</body>
+</html>
