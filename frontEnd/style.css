@@ -1,6 +1,20 @@
-@media only screen and (max-width: 1000px) {
+/* CSS da página listaDesitesConfiáveis */
+
+.section_da_lista{width: 60%; text-align: justify; margin-top: 80px;}
+
+
+@media only screen and (max-width: 800px) {
   
-    body{font-size: small;}
+    .section_da_lista{width: 90%; text-align: justify; margin-top: 80px}
 
 }
 
+
+@media only screen and (max-width: 550px) {
+  
+    .section_da_lista{width: 100%;}
+
+
+    img{height: 40px;}
+
+}
