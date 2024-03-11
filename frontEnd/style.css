@@ -1,3 +1,26 @@
+/* CSS da página principal */
+
+.tamanho_form{height: 300px;}
+
+/*.tamanho_da_margin{margin: auto;
+                padding: auto;}
+
+
+@media only screen and (max-width: 450px) {
+    
+    .tamanho_da_margin{margin: 10px; padding: 10px; }
+    
+} /*
+
+
+
+
+
+
+
+
+
+
 /* CSS da página listaDesitesConfiáveis */
 
 .section_da_lista{width: 60%; text-align: justify; margin-top: 80px;}
@@ -16,5 +39,28 @@
 
 
     img{height: 40px;}
+
+}
+
+
+
+/* CSS da página Sobre nos */
+
+.sobreNos{width: 800px;  
+            height: 800px; 
+            text-align: justify;  
+            margin:auto; 
+            padding-top: 10%;}
+
+
+@media only screen and (max-width: 800px) {
+  
+    .sobreNos{
+    width: 80%;
+    height: auto;
+    margin-top: 50px;}
+
+    .titulos_sobre_nos{text-align: center;}
+    
 
 }
