@@ -2,24 +2,7 @@
 
 .tamanho_form{height: 300px;}
 
-/*.tamanho_da_margin{margin: auto;
-                padding: auto;}
-
-
-@media only screen and (max-width: 450px) {
-    
-    .tamanho_da_margin{margin: 10px; padding: 10px; }
-    
-} /*
-
-
-
-
-
-
-
-
-
+#input_link{display: none;}
 
 
 /* CSS da página listaDesitesConfiáveis */
@@ -37,7 +20,6 @@
 @media only screen and (max-width: 550px) {
   
     .section_da_lista{width: 100%;}
-
 
     img{height: 40px;}
 
